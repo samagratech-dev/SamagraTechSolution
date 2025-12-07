@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Samara Tech Solutions Pvt Ltd</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #0b1020;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+    .wrapper {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 4rem;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    header h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.3rem;
+    }
+    header p.tagline {
+      font-size: 1rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      opacity: 0.8;
+    }
+    section {
+      margin-bottom: 2.5rem;
+    }
+    h2 {
+      font-size: 1.4rem;
+      margin-bottom: 0.8rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      padding-bottom: 0.4rem;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    .pill {
+      display: inline-block;
+      padding: 0.2rem 0.6rem;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      font-size: 0.75rem;
+      margin: 0.1rem;
+      opacity: 0.85;
+    }
+    .highlight {
+      background: linear-gradient(120deg, #27b0ff33, #8f70ff33);
+      border-radius: 0.75rem;
+      padding: 1rem 1.1rem;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      font-size: 0.9rem;
+    }
+    a {
+      color: #4fd1ff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.75rem;
+      opacity: 0.7;
+      margin-top: 2.5rem;
+    }
+    @media (min-width: 768px) {
+      header h1 {
+        font-size: 2.6rem;
+      }
+      .grid-2 {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <p class="tagline">DevOps • Cloud • Cost Optimized</p>
+      <h1>Samara Tech Solutions Pvt Ltd</h1>
+      <p>We help engineering teams ship faster, safer and cheaper on the cloud.</p>
+    </header>
+
+    <section>
+      <h2>About</h2>
+      <p>
+        Samara Tech Solutions Pvt Ltd is a DevOps and Cloud Cost Optimization startup focused on helping
+        product teams design, build, and operate modern cloud platforms that are secure, scalable,
+        and cost-efficient from day one.
+      </p>
+      <p>
+        Our team combines deep experience in CI/CD, Kubernetes, infrastructure-as-code, observability,
+        and FinOps to give you both speed and cost control.
+      </p>
+    </section>
+
+    <section class="grid-2">
+      <div>
+        <h2>What We Do</h2>
+        <ul>
+          <li><strong>DevOps &amp; CI/CD:</strong> Modern pipelines, GitOps workflows, automated checks.</li>
+          <li><strong>Cloud Platforms:</strong> AWS / GCP / Azure architectures, Kubernetes, IaC.</li>
+          <li><strong>Cost Optimization:</strong> Cloud cost audits, rightsizing, governance and dashboards.</li>
+          <li><strong>SRE &amp; Reliability:</strong> SLOs, observability, incident response playbooks.</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Who We Help</h2>
+        <p>We work with:</p>
+        <ul>
+          <li>SaaS and product startups</li>
+          <li>Fintech / e-commerce platforms</li>
+          <li>Digital transformation teams</li>
+          <li>Early-stage companies preparing to scale</li>
+        </ul>
+        <div class="highlight">
+          <strong>Typical outcomes:</strong><br />
+          30–60% reduction in avoidable cloud spend, 2–5x faster release cycles,
+          better visibility into where every rupee of cloud spend goes.
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Why Samara Tech Solutions?</h2>
+      <p>
+        <span class="pill">DevOps + FinOps together</span>
+        <span class="pill">Outcome-focused</span>
+        <span class="pill">Cloud-agnostic</span>
+        <span class="pill">Built for startups</span>
+      </p>
+      <p>
+        We don’t just implement tools; we help you define clear metrics around deployment frequency,
+        lead time, MTTR, and cloud spend, and then work with your team to move those numbers
+        in the right direction.
+      </p>
+    </section>
+
+    <section>
+      <h2>Get in Touch</h2>
+      <p>
+        Ready to explore how we can help streamline your DevOps and reduce your cloud spend?
+      </p>
+      <p>
+        <strong>Email:</strong> <a href="mailto:info.samagratech@gmail.com">info.samagratech@gmail.com</a><br />
+        <strong>GitHub:</strong> <a href="https://github.com/your-org-name" target="_blank" rel="noopener">github.com/your-org-name</a><br />
+        <strong>Location:</strong> India (remote-first)
+      </p>
+    </section>
+
+    <footer>
+      &copy; <span id="year"></span> Samara Tech Solutions Pvt Ltd. All rights reserved.
+    </footer>
+  </div>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
